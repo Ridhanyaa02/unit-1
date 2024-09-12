@@ -15,7 +15,7 @@ My client, is one of the top colleges in the country. In their school management
    Add a password (for example, for a website).
    View the stored passwords (only if they re-enter the secret code).
 5. Save passwords permanently and securely
-6. Use the terminal to interact with the user. 
+6. Use the terminal to interact with the user.
 
 #### Proposed solution 
 
