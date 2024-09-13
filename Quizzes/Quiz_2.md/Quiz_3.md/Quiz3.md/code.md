@@ -30,12 +30,13 @@ Pchain = list(Protien)
 chain_1 = ("A","G","T","C")
 chain_2 = ("T","C","A","G")
 
-#find each protien in chain_1 and store the value as an integer
+#find each protein in chain_1 and store the value as an integer
 for i in Pchain:
     if i in chain_1:
         z = int(chain_1.index(i))
 #find each integer(index value) in chain_2 and print
         print(chain_2[z],end="")
     else:
-        print("protien not available")
+        print("protein not available")
+
 ```
