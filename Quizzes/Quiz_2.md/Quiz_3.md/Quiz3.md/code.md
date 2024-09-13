@@ -36,4 +36,6 @@ for i in Pchain:
         z = int(chain_1.index(i))
 #find each integer(index value) in chain_2 and print
         print(chain_2[z],end="")
+    else:
+        print("protien not available")
 ```
