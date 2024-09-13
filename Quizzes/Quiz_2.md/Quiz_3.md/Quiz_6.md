@@ -21,6 +21,7 @@ else:
 
 for _ in range(l):
     print(str((random.choice(choice_1))),end="")
+```
 
 ###Proof of work 
 
