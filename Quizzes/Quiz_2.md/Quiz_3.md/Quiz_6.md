@@ -6,6 +6,7 @@
 ###Flow Chart
 ###Code
 
+.py
 import random
 choice_1 = list("abcdefghijklmnopqrstyvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 choice_2 = list("#¤%&/=!;:?-_^~,.|")
