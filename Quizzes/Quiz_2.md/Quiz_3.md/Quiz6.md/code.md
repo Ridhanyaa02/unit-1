@@ -11,12 +11,8 @@ for _ in range(20):
 
 ## HL
 ```.py 
-import random
-choice_1 = list("abcdefghijklmnopqrstyvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
-choice_2 = list("#¤%&/=!;:?-_^~,.|")
-l = input("password length")
-l = int(l)
-x = input("would you like symbols?")
+end_code = "\033[00m"
+red = "\33[0;31m"
 
 if x == "yes":
     for i in choice_2:
@@ -24,5 +20,6 @@ if x == "yes":
 elif x == "no":
     pass
 for _ in range(l):
-    print(str((random.choice(choice_1))),end="")
+    g = str((random.choice(choice_1)))
+    print(f'{red}{g}{end_code}', end="")
 ``
