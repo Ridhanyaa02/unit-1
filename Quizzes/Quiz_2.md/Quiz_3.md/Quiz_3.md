@@ -1,12 +1,12 @@
-##Quiz 3 
+### Quiz 3 
 
-###Paper solution 
+### Paper solution 
 
 ![Quiz 3 SL](https://github.com/user-attachments/assets/9851bb31-41aa-4267-8c1f-8ecbf0fddf4f)
 ![Quiz 3 HL](https://github.com/user-attachments/assets/72a9f818-b8a0-438d-b6ec-680547863341)
 
-###Flow Chart
-###Code
+### Flow Chart
+### Code
 
 HL
 ``` .py
@@ -45,6 +45,7 @@ else:
     print("input not valid")
 
 ```
+
     
 ###Proof of work 
 input
