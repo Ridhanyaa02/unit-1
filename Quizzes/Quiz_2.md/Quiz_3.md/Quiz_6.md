@@ -6,7 +6,7 @@
 ###Flow Chart
 ##Code
 .py
-import random
+(import random
 choice_1 = list("abcdefghijklmnopqrstyvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 choice_2 = list("#¤%&/=!;:?-_^~,.|")
 l = input("password length")
@@ -20,7 +20,7 @@ else:
     pass
 
 for _ in range(l):
-    print(str((random.choice(choice_1))),end="")
+    print(str((random.choice(choice_1))),end=""))
 
 ###Proof of work 
 
