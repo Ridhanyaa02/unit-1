@@ -4,8 +4,7 @@
 ![quiz 6 paper solution](https://github.com/user-attachments/assets/242c6ac2-0650-4242-b837-09f39bcb0f7c)
 
 ###Flow Chart
-###Code
-
+##Code
 .py
 import random
 choice_1 = list("abcdefghijklmnopqrstyvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
