@@ -38,10 +38,51 @@ Most people, regardless of their computer hardware, have access to the applicati
 8. The software should have visual cues and aesthetics that allow the user to easily navigate around the terminal 
 9. Password manager should work on terminal
 
+# Criteria B: Design
+ 
+### Flow diagrams for algorithms 
+
+#### Delete function
+![Delete function (1)](https://github.com/user-attachments/assets/e4d800b5-fece-4506-971b-504148826456)
+
+#### Encryption function 
+![Blank diagram (6)](https://github.com/user-attachments/assets/670509ae-d597-4553-a0cf-96e6112a5acd)
 
 ### Record of tasks 
 
-# Criteria B: Design
- 
+| **Task number** | **Planned Action**                                               | **Planned Outcome**                                                                                                                                                                                        | **Time Estimated** | **Target completion date** | Criterion |
+|-----------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------|-----------|
+|        1        | Problem definition Proposed solution                             | Defining the problem will help me better plan out  a solution. This is when I will write my proposed  solution as well including the rationale.                                                            | 30 minutes         | September 11 2024          | A         |
+|        2        | Success Criteria                                                 | The Success criteria will act as project goals for me throughout creating the password manager. They  will be the milestones I will have to check up on.                                                   | 20 minutes         | September 12 2024          | A         |
+|        3        | Paper solutions for project                                      | Paper solutions for the project helps me brainstorm ideas for the code and how to better execute the  project.                                                                                             | 30 minutes         | 12 - 13 September 2024     | B         |
+|        4        | System Diagram                                                   | The system diagram gives me an idea of what the user interface will look like.                                                                                                                             | 20 minutes         | 13 September 2024          | B         |
+|        5        | test plan                                                        | Outlining how all the different elements will be tested  along with the input and output for each test. This will  be useful later when I will be testing my product                                       | 45 minutes         | 14 September 2024          |           |
+|        6        | creating calculator  (addition and multiplication)               | This is the first step in my project and is the  front end for my password manager. I will start with  addition and multiplication as they are easier.                                                     | 1 hour             | 14 September 2024          |           |
+|        7        | creating calculator (Multiplication and division)                | These are the other 2 functions that are required for  my calculator to be fully functional                                                                                                                | 1 hour             | 16 September 2024          |           |
+|        8        | Testing calculator functions                                     | To understand if the application and its functions  works fully                                                                                                                                            | 20 minutes         | 17 September 2024          |           |
+|        9        | Error checks                                                     | Ensuring that calculator can handle basic errors eg. dividing by 0 and making sure that no system errors occur within the calculator                                                                       | 1.5 hours          | 18 September 2024          |           |
+|        10       | Creating password manager  (creating menu and adding passwords)  | The menu is the first step to making the password  manager, after this the next essential step is creating the algorythym for adding passwords                                                             | 2 hours            | 19 September 2024          |           |
+|        11       | Creating delete functions                                        | This is the second step of my password manager, which is  being able to delete passwords.                                                                                                                  | 2 hours            | 20 September 2024          |           |
+|        12       | Creating view functions                                          | Creating the view password function is the final essential function in my calculator                                                                                                                       | 1 hour             | 21 September 2024          |           |
+|        13       | resetting master-key function                                    | Creating the function to reset master-key was an  essential need for the product as my client specifically  requires it to be done.                                                                        | 30 minutes         | 22 September 2024          |           |
+|        14       | Encryption                                                       | Encryption is what hides the password from plain view  when stored in the csv file.                                                                                                                        | 2 hours            | 23 September 2024          |           |
+|        15       | Testing all password manager functions                           | This is when testing occured, ensuring that there are no  large errors                                                                                                                                     | 20 minutes         | 24 September 2024          |           |
+|        16       | Creating visuals cues                                            | This is when the asethetics and visual cues were made to  help the user navigate the password manager and calculator  easier. This is especially relevant in the menu and is  one of my success criteria.  | 1 hour             | 25 September 2024          |           |
+|        17       | Creating flow diagrams                                           | flow diagrams for the main areas of my program help visualize the code and functions.                                                                                                                      | 1.5 hours          | 26 September 2024          |           |
+|        18       | Product explanation                                              | This step requires explaining the different tools and computing skills that I have used in order to build my project for my  clients needs.                                                                | 2 hours            | 26 September 2024          |           |
+
+
 ### System diagram 
-### Flow diagrams for algorithms 
+
+![AMD Ryzen 5 7535HS](https://github.com/user-attachments/assets/9f9bd557-bcba-4311-bc6d-76557b499fac)
+
+## Test plan 
+
+| Test case type | about                                                                       | Input                                                                                    | Expected output                                                                                                                                                 | Actual Output                                                            | Status |
+|----------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------|
+| Functionality  | testing calculator functions                                                | all different operations single, double, triple etc.  digit integers  decimal variables  | Correct calculated answer based on function and values given                                                                                                    | decimal places did not work  as variables  were set to int and not float | Fail   |
+| Error checks   | Checking the calculator for any errors. Ensuring it can handle basic errors | Diving by 0                                                                              | "INVALID INPUT"                                                                                                                                                 | "INVALID INPUT"                                                          | pass   |
+| Functionality  | testing CRUD operations on  password manager                                | Passwords with different lengths containing different charecters.                        | Add functions appends  user and password to csv file   delete function removes user and password from csv file   view function displays passwords from csv file | as expected                                                              | pass   |
+| Security       | testing encryption                                                          | Encrypting passwords with capital  and small letters as well as numbers                  | letters in password are encrypted into  csv file with shift 13.   Numbers in password are encrypted into  csv file with shift 5.                                | as expected                                                              | pass   |
+| Functionality  | Resetting masterkey                                                         | entering masterkey and eventually  changing the mastercode                               | mastercode changed                                                                                                                                              | mastercode changed                                                       | pass   |
+
