@@ -43,13 +43,17 @@ Most people, regardless of their computer hardware, have access to the applicati
 ### Flow diagrams for algorithms 
 
 #### Delete function
-![Delete function (1)](https://github.com/user-attachments/assets/e4d800b5-fece-4506-971b-504148826456)
 
+![Delete function (2)](https://github.com/user-attachments/assets/17077d7d-8484-49d0-b84b-390c23e4628c)
 
 
 #### Encryption function 
-![Blank diagram (6)](https://github.com/user-attachments/assets/670509ae-d597-4553-a0cf-96e6112a5acd)
 
+![Blank diagram (8)](https://github.com/user-attachments/assets/7cce8037-1872-4fa6-937a-6e8322611f43)
+
+#### Resetting masterkey 
+
+![Blank diagram (7)](https://github.com/user-attachments/assets/c094d21f-c966-48b3-95ea-2c86f2832912)
 
 
 ### Record of tasks 
