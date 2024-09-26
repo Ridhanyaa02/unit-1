@@ -1,4 +1,4 @@
-# project Unit 1 
+# Project Unit 1 
 
 # Criteria A: Planning 
 
@@ -45,8 +45,12 @@ Most people, regardless of their computer hardware, have access to the applicati
 #### Delete function
 ![Delete function (1)](https://github.com/user-attachments/assets/e4d800b5-fece-4506-971b-504148826456)
 
+
+
 #### Encryption function 
 ![Blank diagram (6)](https://github.com/user-attachments/assets/670509ae-d597-4553-a0cf-96e6112a5acd)
+
+
 
 ### Record of tasks 
 
@@ -72,11 +76,17 @@ Most people, regardless of their computer hardware, have access to the applicati
 |        18       | Product explanation                                              | This step requires explaining the different tools and computing skills that I have used in order to build my project for my  clients needs.                                                                | 2 hours            | 26 September 2024          |           |
 
 
+
+
 ### System diagram 
 
 ![AMD Ryzen 5 7535HS](https://github.com/user-attachments/assets/9f9bd557-bcba-4311-bc6d-76557b499fac)
 
+
+
 ## Test plan 
+
+
 
 | Test case type | about                                                                       | Input                                                                                    | Expected output                                                                                                                                                 | Actual Output                                                            | Status |
 |----------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------|
