@@ -580,3 +580,9 @@ def cypher(word:str):
                 final += y
     return final
 ``` 
+
+## Sources 
+
+How to loop through a list using the index numbers in Python. (2015). Educative. https://www.educative.io/answers/how-to-loop-through-a-list-using-the-index-numbers-in-python
+
+chris, kolade. (2022, March 16). Python Functions – How to Define and Call a Function. FreeCodeCamp.org. https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/
