@@ -333,9 +333,6 @@ def password_m():
                         if i in j:
                             y = cypher3(i)
                             epassword += y
-                    for j in symbols:
-                        if i in j:
-                            pass
 
                 name_pass = f'{new_domain}, {epassword}'
                 with open('password.csv', mode='a') as f:
@@ -351,6 +348,7 @@ def password_m():
         elif action == "3":
             verification = input(f'{yellow}enter masterkey: {end_code}')
             masterkey = "password123"
+
             if verification == masterkey:
                 print("to view last stored password"f'{purple} [select W]: {end_code}')
                 print("to view all saved password"f'{purple} [select Z]: {end_code}')
@@ -359,10 +357,19 @@ def password_m():
                 if action2 == "W":
                     rows = list(passw)
                     last_row = rows[-1]
-                    print(last_row)
+                    for p in last_row:
+                        name,ps = p.split(',')
+                        ups = (uncypher(ps))
+                        print(name,ups)
 
-                if action2 == "Z":
-                    print('\n'.join(passw))
+                elif action2 == "Z":
+                    for p in passw:
+                        name, ps = p.split(',')
+                        ups = (uncypher(ps))
+                        print(name,ups)
+
+                else:
+                    print(f'{red}INVALID INPUT{end_code}')
 
             else:
                 print(f'{red}UNAUTHORIZED SECTOR{end_code}')
@@ -429,7 +436,7 @@ def password_m():
 
 
         elif action == "5":
-            print(f'{blue}Goodbye{end_code}')
+            print(f'{cyanHI}Goodbye{end_code}')
             Activation == False
             return(None)
 
