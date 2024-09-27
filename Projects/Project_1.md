@@ -306,7 +306,7 @@ def password_m():
         print(f'{purple}[SELECT 2]{end_code}'" Delete password ")
         print(f'{purple}[SELECT 3]{end_code}'" View stored passwords ")
         print(f'{purple}[Select 4]{end_code}'" Change master-key" )
-        print(f'{purple}[SELECT 4]{end_code}'" EXIT ")
+        print(f'{purple}[SELECT 5]{end_code}'" EXIT ")
         action = input(f'{Boldb}Type course of action: {end_code}')
 
         ## Adding passwords
