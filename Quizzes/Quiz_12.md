@@ -1,6 +1,6 @@
 # Quiz 12
 ### Paper solutions
-![image](https://github.com/user-attachments/assets/a41bba63-1361-442e-8f89-5347d0ba527f)
+![image](https://github.com/user-attachments/assets/8a6fa8a9-e08b-4e2f-91b2-4f279344eef7)
 
 ### Code
 ```.py
