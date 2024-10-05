@@ -1,4 +1,4 @@
-![test case 2](https://github.com/user-attachments/assets/c9a9a402-ab8a-456e-9272-f662b7999c92)# Quiz 13
+# Quiz 14
 ### Paper solutions 
 ### Code
 ```.py
