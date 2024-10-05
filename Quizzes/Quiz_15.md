@@ -1,5 +1,7 @@
 # Quiz 15 
 ### Paper solutions 
+![image](https://github.com/user-attachments/assets/abb61410-39ad-4041-a546-e90b591d9ebb)
+
 ### Code
 ```.py
 import random
