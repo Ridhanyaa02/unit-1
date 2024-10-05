@@ -1,5 +1,7 @@
 # Quiz 10
 ### Paper solutions 
+![image](https://github.com/user-attachments/assets/984288fc-ada3-4259-baa7-818a6366ef4c)
+
 ### Code 
 ```.py
 def poweroften(input=int):
