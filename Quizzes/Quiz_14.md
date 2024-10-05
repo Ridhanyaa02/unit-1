@@ -1,5 +1,7 @@
 # Quiz 14
 ### Paper solutions 
+![image](https://github.com/user-attachments/assets/68209565-c608-42b9-8dfe-c6b91f756bb4)
+
 ### Code
 ```.py
 def doors(students:int):
