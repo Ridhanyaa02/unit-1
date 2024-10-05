@@ -1,5 +1,7 @@
 # Quiz 11 
 ### Paper solutions 
+![image](https://github.com/user-attachments/assets/a41bba63-1361-442e-8f89-5347d0ba527f)
+
 ### Code
 ```.py
 import calendar
