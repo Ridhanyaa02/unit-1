@@ -1,5 +1,7 @@
 # Quiz 16
 ### Paper solutions
+![image](https://github.com/user-attachments/assets/72fd5935-ddc4-42d3-b023-47564ab03a82)
+
 ### code 
 
 ```.py
